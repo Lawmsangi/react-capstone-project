@@ -1,0 +1,35 @@
+.books-details {
+  display: flex;
+  flex-direction: column;
+  background-color: #5587e1;
+}
+
+.author-views {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.author-views h1 {
+  font-size: 2rem;
+}
+
+.subject-lists {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.current-book {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.current-book svg {
+  position: absolute;
+  right: 3%;
+}

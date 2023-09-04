@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4369b2;
+  color: #fff;
+  height: 10vh;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+input {
+  width: 50%;
+  outline: none;
+  border: none;
+  height: 20px;
+  color: #353232;
+}
+
+svg {
+  margin-right: 10px;
+  margin-left: 10px;
+}
