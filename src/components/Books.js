@@ -2,10 +2,16 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import '../css/Books.css';
 import { useNavigate } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-function Books() {
+function Books({ searchQuery }) {
   const { books } = useSelector((store) => store.books);
   const navigate = useNavigate();
+
+  const filteredBooks = books.filter(
+    (book) => book.title.toLowerCase()
+      .includes(searchQuery.toLowerCase()),
+  );
 
   const handleButtonClick = (id) => {
     navigate(`/details/${id}`);
@@ -13,7 +19,7 @@ function Books() {
 
   return (
     <div className="books">
-      {books.map((book, id) => (
+      {filteredBooks.map((book, id) => (
         <button
           type="button"
           key={book.id}
@@ -32,5 +38,8 @@ function Books() {
     </div>
   );
 }
+Books.propTypes = {
+  searchQuery: PropTypes.func.isRequired,
+};
 
 export default Books;
