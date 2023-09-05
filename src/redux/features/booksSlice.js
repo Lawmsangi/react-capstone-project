@@ -3,6 +3,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 const initialState = {
   books: [],
   isLoading: false,
+  searchQuery: '',
 };
 
 export const fetchBooks = createAsyncThunk(
@@ -20,7 +21,11 @@ export const fetchBooks = createAsyncThunk(
 const booksSlice = createSlice({
   name: 'books',
   initialState,
-  reducers: {},
+  reducers: {
+    setQuery: (state, action) => {
+      state.searchQuery = action.payload;
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(fetchBooks.pending, (state) => {
@@ -37,3 +42,4 @@ const booksSlice = createSlice({
 });
 
 export default booksSlice.reducer;
+export const { setQuery } = booksSlice.actions;

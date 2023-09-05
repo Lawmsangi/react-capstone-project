@@ -1,14 +1,16 @@
 import React from 'react';
 import '../css/Header.css';
 import { useNavigate } from 'react-router-dom';
-import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
+import { setQuery } from '../redux/features/booksSlice';
 
-function Header({ setSearchQuery }) {
+function Header() {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const handleInputChange = (event) => {
     const query = event.target.value;
-    setSearchQuery(query);
+    dispatch(setQuery(query));
   };
 
   return (
@@ -45,8 +47,5 @@ function Header({ setSearchQuery }) {
 
   );
 }
-Header.propTypes = {
-  setSearchQuery: PropTypes.func.isRequired,
-};
 
 export default Header;
