@@ -41,9 +41,9 @@ Books Library is a SPA library where you can see all the books title, author and
 5. Redux-toolkit
 
 ### Key Features <a name="key-features"></a>
-    - **SPA**
-    - **Search title for books**
-    - **Popular Books**
+    - **[SPA]**
+    - **[Search title for books]**
+    - **[Popular Books]**
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,8 +54,24 @@ Books Library is a SPA library where you can see all the books title, author and
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+  Git to clone this project or you can download the project ZIP file.
+
+  Any web browser to run this project.
+
 ### setup
+
 <p>Clone this repository to your desired folder</p>
+
+  ```sh
+  git clone https://github.com/Lawmsangi/react-capstone-project.git
+  ```
+
 <a href ="https://github.com/Lawmsangi/react-capstone-project.git"></a>
 
 ### Install
