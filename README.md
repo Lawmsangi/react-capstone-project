@@ -5,7 +5,6 @@
   <h3><b>Books Library</b></h3>
 </div>
 
-
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
@@ -42,15 +41,10 @@ Books Library is a SPA library where you can see all the books title, author and
 5. Redux-toolkit
 
 ### Key Features <a name="key-features"></a>
-- Home page
     - **SPA**
     - **Search title for books**
     - **Popular Books**
-
-- Details page
-    - **In the details page, the webapp retrieves data from the API to show detailed data in the category.**
-    - **When the user clicks on the "Back" button (<), the user navigates to the home page.**
-
+    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -66,11 +60,14 @@ Books Library is a SPA library where you can see all the books title, author and
 
 ### Install
 
-Install this project with: -Git clone on your cd Desktop using my repository link above
-
+Install this project with: 
+cd react-capstone-project then type command below on terminal
+- npm install
+  
 ### Usage
 
--To run the project, copy its path and run it on your online server.
+-To run the project, type and run command on terminal on root of project folder:
+-npm start
 
 ### Run tests
 
@@ -81,8 +78,6 @@ You can also check linter errors by running this commands:
 
     - npx eslint "**/*.{js,jsx}"
     - npx stylelint "*/.{css,scss}"
-    - npm test
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
