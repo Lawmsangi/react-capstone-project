@@ -41,9 +41,9 @@ Books Library is a SPA library where you can see all the books title, author and
 5. Redux-toolkit
 
 ### Key Features <a name="key-features"></a>
- 1 SPA
- 2. Search title for books
- 3. Popular Books
+1. SPA
+2. Search title for books
+3. Popular Books
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
