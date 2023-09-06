@@ -1,0 +1,36 @@
+.books {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-gap: 1px;
+}
+
+.books > button {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  padding: 10px;
+  border: none;
+  position: relative;
+}
+
+.books svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.6rem;
+  margin: 5px;
+}
+
+.even-item {
+  background-color: #4369b2;
+}
+
+.odd-item {
+  background-color: #5587e1;
+}
+
+@media screen and (max-width: 480px) {
+  .books {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
