@@ -10,6 +10,7 @@ Object {
       >
         <button
           class="book.id even-item"
+          data-testid="clickBook"
           type="button"
         >
           <svg
@@ -41,6 +42,7 @@ Object {
     >
       <button
         class="book.id even-item"
+        data-testid="clickBook"
         type="button"
       >
         <svg

@@ -21,6 +21,7 @@ Object {
             />
           </svg>
           <input
+            placeholder="search.."
             type="text"
           />
           <svg
@@ -83,6 +84,7 @@ Object {
           />
         </svg>
         <input
+          placeholder="search.."
           type="text"
         />
         <svg

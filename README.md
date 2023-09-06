@@ -55,7 +55,7 @@ Books Library is a SPA library where you can see all the books title, author and
 
  
 ## 🎥 Live Video <a name="live-video"></a>
-- [Live Video Link](https://www.loom.com/share/a260c9612735420c97f8c1b8b3afbe65)
+- [Live Video Link](https://www.loom.com/share/3e45b45785754de2b467e2d752b05636)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 

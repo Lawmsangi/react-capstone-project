@@ -21,6 +21,7 @@ function Books() {
       {filteredBooks.map((book, id) => (
         <button
           type="button"
+          data-testid="clickBook"
           key={book.id}
           onClick={() => handleButtonClick(book.id)}
           className={`book.id ${id % 2 === 0 ? 'even-item' : 'odd-item'}`}
