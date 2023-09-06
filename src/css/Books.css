@@ -28,3 +28,9 @@
 .odd-item {
   background-color: #5587e1;
 }
+
+@media screen and (max-width: 480px) {
+  .books {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
