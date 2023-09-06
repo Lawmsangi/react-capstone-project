@@ -51,7 +51,7 @@ Books Library is a SPA library where you can see all the books title, author and
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link] (https://books-library-oy1a.onrender.com/)
+- [Live Demo Link](https://books-library-oy1a.onrender.com/)
 
  
 ## 🎥 Live Video <a name="live-video"></a>
